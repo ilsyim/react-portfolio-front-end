@@ -17,7 +17,7 @@ const NavBar = ({ user, handleLogout }) => {
       :
         <nav className={styles.nav}>
           <Link id={styles.nav} className={styles.about} to="/about">About</Link>
-          <Link id={styles.nav} className={styles.projects} to="/projects">Projects</Link>
+          <Link id={styles.nav} className={styles.work} to="/work">Work</Link>
           <Link id={styles.nav} className={styles.contact} to="/contact">Contact</Link>
           <Link id={styles.nav} className={styles.resume} to="/resume">Resume</Link>
         </nav>

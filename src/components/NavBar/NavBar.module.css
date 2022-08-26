@@ -52,7 +52,7 @@
   font-size: 22px;
 }
 
-.projects{
+.work{
   margin-right: 15px;
   text-decoration: none;
   font-size: 20px;
@@ -61,7 +61,7 @@
   transition: 0.4s;
 }
 
-.projects:hover{
+.work:hover{
   font-size: 22px;
 }
 
@@ -105,16 +105,8 @@
     padding-bottom: 0;
     overflow-x: hidden;
   }
-
-  .username{
-    justify-content: left;
-    display: flex;
-    font-size: 20px;
-    color: whitesmoke;
-    margin-top: 14px;
-  }
   
-  .event{
+  .about{
     margin-right: 30px;
     display: flex;
     text-decoration: none;
@@ -125,24 +117,15 @@
     margin-left: 20px;
   }
 
-  .add_event{
+  .work{
     font-size: 15px;
   }
 
-  .all_events{
+  .contact{
     font-size: 15px;
   }
 
   .change{
     font-size: 15px;
-  }
-
-  .log_out{
-    font-size: 15px;
-    margin-right: 90px;
-  }
-
-  .username{
-    display: none;
   }
 }
