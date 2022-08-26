@@ -7,8 +7,22 @@ import Work from '../../components/Work/Work'
 
 
 const Portfolio = () => {
-  const [ component, setComponent] = useState('About')
+  const [component, setComponent] = useState('About')
 
+  // const className = "dark"
+
+  // const toggleLightDark = () => {
+  //   className = className === "dark" ? "" : "dark"
+  // }
+
+  // const checkDarkPref = () => {
+  //   if(
+  //     window.matchMedia("(prefers-color-scheme:dark)").matches && 
+  //     className !== "dark"
+  //   ) {
+  //     toggleLightDark()
+  //   }
+  // }
 
   return (
     <>
@@ -18,6 +32,7 @@ const Portfolio = () => {
           <button className={styles.contact} onClick={() => setComponent('Contact')}>Contact</button>
           <button className={styles.resume} onClick={() => setComponent('Resume')}>Resume</button>
           <button className={styles.work} onClick={() => setComponent('Work')}>Work</button>
+          {/* <button id="lDBtn" onClick={() => checkDarkPref()}></button> */}
         </div>
         <div className={styles.display}>
           {component === 'About' ? <About/> : ""}

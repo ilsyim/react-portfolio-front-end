@@ -1,4 +1,16 @@
 body {
+  --body-bg: #A9DEF9;
+  --hover: #f4b860;
+  --text: black;
+  --bg: #b4d4ee;
+  --shadow: black;
+  --article-bg: oldlace;
+  --article-text: black;
+  --lDBtn-content: 'Dark Mode';
+  --border: #b4d4ee;
+  --card-bg: oldlace;
+  --card-text: black;
+  --card-title: black;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
     'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 
@@ -6,6 +18,50 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+body.dark{
+  --lDBtn-content: 'Light Mode';
+  --text: #b4d4ee;
+  --bg: black;
+  --shadow: #b4d4ee;
+  --article-bg: black;
+  --article-text: oldlace;
+  --border: oldlace;
+  --card-bg: black;
+  --card-text: oldlace;
+  --card-title: #b4d4ee;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.lDBtn {
+  background-color: var(--bg);
+  color: var(--text);
+  border-radius: 7px;
+}
+
+.lDBtn::after {
+  border: none;
+  color: var(--text);
+  content: var(--light-dark-btn-content);
+  background-color: var(--bg);
+}
+
+article {
+  padding: 40px;
+  margin: 10px auto;
+  background-color: var(--article-bg);
+  border: 5px solid var(--border);
+  border-radius: 20px;
+  opacity: .9;
+  color: var(--article-text);
+  grid-column: 1 / 5;
+  opacity: .8;
+}
+
+/* article > p {
+  color: var(--article-text);
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

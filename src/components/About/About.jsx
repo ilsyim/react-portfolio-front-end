@@ -1,4 +1,4 @@
-
+import styles from './About.module.css'
 
 
 
@@ -9,7 +9,15 @@ const About = () => {
 
   return (
     <>
-      <h1>This is the about section</h1>
+      <article className={styles.article}>
+        <h2>Welcome!</h2>
+          <p>
+            I am a software engineer currently based in Fort Worth, Texas. I graduated from UT with a BA in English.
+          </p>
+          <p>
+            I joined the SEI course at General Assembly because I want my work to challenge how I view and solve problems.
+          </p>
+      </article>
     </>
   )
 }
