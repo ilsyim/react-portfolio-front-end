@@ -30,7 +30,7 @@ const Portfolio = () => {
         <nav className={styles.portfolioNav}>
           <button className={styles.about} onClick={() => setComponent('About')}><p>About</p></button>
           <button className={styles.contact} onClick={() => setComponent('Contact')}>Contact</button>
-          <button className={styles.resume} onClick={() => setComponent('Resume')}>Resume</button>
+          <button className={styles.resume} onClick={() => setComponent('Resume')}><a href="../resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></button>
           <button className={styles.work} onClick={() => setComponent('Work')}>Work</button>
           {/* <button id="lDBtn" onClick={() => checkDarkPref()}></button> */}
         </nav>

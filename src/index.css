@@ -1,11 +1,10 @@
-/* html {
-  background-image: url("/public/clouds.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0;
-  height: 100%;
-  width: 100vw;
-} */
+html {
+  overflow: hidden;
+}
+#root {
+  overscroll-behavior: none;
+  scroll-behavior: smooth;
+}
 
 body {
   --body-bg: #A9DEF9;
@@ -21,6 +20,7 @@ body {
   --card-text: black;
   --card-title: black;
   overscroll-behavior: none;
+  scroll-behavior: smooth;
   /* background-image: url("/public/clouds.jpeg");
   background-repeat: no-repeat;
   background-size: cover;

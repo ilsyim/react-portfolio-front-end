@@ -1,5 +1,4 @@
 .portfolioNav{
-  --body-bg: #A9DEF9;
   --hover: #f4b860;
   --text: black;
   --bg: #b4d4ee;
@@ -14,16 +13,33 @@
   overscroll-behavior: none;
   scroll-behavior: smooth;
   display: grid;
-  background-color: var(--body-bg);
-  /* background: url(../assets/clouds.JPG) no-repeat center center; */
-  
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
   display: flex;
-  margin-left: 0;
-  background-color: #333;
-  padding-bottom: 0;
   overflow-x: hidden;
   height: auto;
+  padding: 20px;
+  margin: 0 50px;
+}
+
+button {
+  background-color: oldlace;
+  border-radius: 7px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+button:hover {
+  background-color: black;
+  color: oldlace;
+}
+
+a {
   text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: oldlace;
 }
