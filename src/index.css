@@ -1,3 +1,12 @@
+/* html {
+  background-image: url("/public/clouds.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  height: 100%;
+  width: 100vw;
+} */
+
 body {
   --body-bg: #A9DEF9;
   --hover: #f4b860;
@@ -11,12 +20,19 @@ body {
   --card-bg: oldlace;
   --card-text: black;
   --card-title: black;
+  overscroll-behavior: none;
+  /* background-image: url("/public/clouds.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
+  height: 100%;
+  width: 100vw; */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
     'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 
     'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: auto;
 }
 
 body.dark{

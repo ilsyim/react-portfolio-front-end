@@ -27,13 +27,13 @@ const Portfolio = () => {
   return (
     <>
       <div className={styles.mainBody}>
-        <div className={styles.portfolioNav}>
-          <button className={styles.about} onClick={() => setComponent('About')}>About</button>
+        <nav className={styles.portfolioNav}>
+          <button className={styles.about} onClick={() => setComponent('About')}><p>About</p></button>
           <button className={styles.contact} onClick={() => setComponent('Contact')}>Contact</button>
           <button className={styles.resume} onClick={() => setComponent('Resume')}>Resume</button>
           <button className={styles.work} onClick={() => setComponent('Work')}>Work</button>
           {/* <button id="lDBtn" onClick={() => checkDarkPref()}></button> */}
-        </div>
+        </nav>
         <div className={styles.display}>
           {component === 'About' ? <About/> : ""}
           {component === 'Contact' ? <Contact/> : ""}

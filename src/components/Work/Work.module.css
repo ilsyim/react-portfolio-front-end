@@ -1,0 +1,47 @@
+.card {
+  background-color: rgba(56,112,176, .4);
+  border: 1px solid whitesmoke;
+  color: black;
+}
+
+.cardImgTop {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+  object-fit: scale-down;
+}
+
+.cardContainer {
+  background-color: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 50px;
+  height: auto;
+}
+
+#deployed {
+  background-color: black;
+  border: 1px solid white;
+}
+
+#deployed:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+#git:hover {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+}
+
+#git {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
