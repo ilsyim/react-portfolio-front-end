@@ -30,8 +30,8 @@
   justify-content: center;
   margin: 20px;
   gap: 20px;
-  overscroll-behavior: none;
   scroll-behavior: smooth;
+  overflow: scroll;
 }
 
 #deployed {

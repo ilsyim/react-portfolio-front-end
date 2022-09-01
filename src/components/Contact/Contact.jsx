@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <>
       <div id={styles.contactSect} className={styles.section}>
-        <div id>
+        <div>
           <a href="https://github.com/ilsyim" target="_blank" rel="noopener noreferrer"><img src={"../icons8-github-100.png"} className={styles.icon} alt="GitHub icon" /></a>
 
           <a href="https://www.linkedin.com/in/ilyanasimmons/" target="_blank" rel="noopener noreferrer"><img src="../icons8-linkedin-circled-100.png" alt="LinkedIn icon" className={styles.icon}/></a>

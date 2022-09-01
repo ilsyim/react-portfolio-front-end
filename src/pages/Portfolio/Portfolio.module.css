@@ -22,6 +22,10 @@
   margin: 0 50px;
 }
 
+.portfolio {
+  width: 50%;
+}
+
 button {
   background-color: oldlace;
   border-radius: 7px;

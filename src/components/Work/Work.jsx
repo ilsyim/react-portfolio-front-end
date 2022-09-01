@@ -6,7 +6,7 @@ const Work = () => {
 
   return (
     <>
-      <h1>This is the work section</h1>
+      
       <div className={styles.cardContainer}>
         <div className={styles.card} style={{width: "18rem"}}>
           <img src="/ttt.png" className={styles.cardImgTop} alt="Screenshot of Tic-Tac-Toe app."/>

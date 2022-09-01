@@ -7,9 +7,7 @@ const Resume = () => {
 
   return (
     <>
-      <h1>This is the resume section</h1>
-      <p><a href="../resume.pdf" target="_blank">Resume</a></p>
-      {/* add image of resume? */}
+      <a href="../IlyanaSimmons.pdf"  target="_blank" rel="noopener noreferrer"><img src="../resume.png" alt="My resume" style={{width:"400px"}}/></a>
     </>
   )
 }
