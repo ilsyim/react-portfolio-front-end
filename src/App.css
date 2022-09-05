@@ -1,21 +1,62 @@
-/* Landing */
-.container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+:root {
+  --light-bg: oldlace;
+  --dark-bg: black;
+  --light-text: black;
+  --dark-text: oldlace;
+  --light-text-hover: #4377b0;
+  --dark-text-hover: #699bcc;
+  --light-h1: oldlace;
+  --dark-h1: black ;
+}
+
+.App {
   background-image: url("/public/clouds.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
   height: 100vh;
   width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overscroll-behavior: none;
+  scroll-behavior: smooth;
+}
+
+.switch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100px;
+}
+
+.switch label {
+  margin: 10px;
+}
+
+#light h1 {
+  color: var(--light-h1);
+}
+
+#dark h1 {
+  color: var(--dark-h1);
+}
+
+/* Landing */
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   overscroll-behavior: none;
   scroll-behavior: smooth;
 }
 
 /* Portfolio */
+.portfolio {
+  width: 50%;
+}
 .portfolioNav{
-  background-color: oldlace;
   overscroll-behavior: none;
   scroll-behavior: smooth;
   display: grid;
@@ -37,12 +78,25 @@
   background-color: black;
 }
 
-.portfolio {
-  width: 50%;
+#light button {
+  background-color: var(--light-bg);
+  color: var(--light-text);
+}
+
+#light button:hover {
+  color: var(--light-text-hover);
+}
+
+#dark button {
+  background-color: var(--dark-bg);
+  color: var(--dark-text);
+}
+
+#dark button:hover {
+  color: var(--dark-text-hover);
 }
 
 button {
-  background-color: oldlace;
   border: none;
   padding: 0;
   margin: 0;

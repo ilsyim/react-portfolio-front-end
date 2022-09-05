@@ -1,5 +1,14 @@
 html {
   overflow: hidden;
+  scroll-padding-top: 5rem;
+}
+/* The Universal Selector */
+*, /* All elements*/
+*::before, /* All ::before pseudo-elements */
+*::after { /* All ::after pseudo-elements */
+  /* height & width will now include border & padding by default
+     but can be over-ridden as needed */
+  box-sizing: inherit;
 }
 #root {
   overscroll-behavior: none;
@@ -9,4 +18,7 @@ html {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+body {
+  margin: 0;
 }
