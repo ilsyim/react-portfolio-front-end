@@ -1,5 +1,3 @@
-import styles from './About.module.css'
-
 
 
 
@@ -9,7 +7,7 @@ const About = () => {
 
   return (
     <>
-      <article className={styles.article}>
+      <article className="article">
         <h2>Welcome!</h2>
           <p>
             I am a software engineer currently based in Fort Worth, Texas. I graduated from UT with a BA in English.

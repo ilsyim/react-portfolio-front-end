@@ -1,0 +1,165 @@
+/* Landing */
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("/public/clouds.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  overscroll-behavior: none;
+  scroll-behavior: smooth;
+}
+
+/* Portfolio */
+.portfolioNav{
+  background-color: oldlace;
+  overscroll-behavior: none;
+  scroll-behavior: smooth;
+  display: grid;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  overflow-x: hidden;
+  height: auto;
+  padding: 20px;
+  margin: 0 50px;
+}
+
+#light .portfolioNav {
+  background-color: oldlace;
+}
+
+#dark .portfolioNav {
+  background-color: black;
+}
+
+.portfolio {
+  width: 50%;
+}
+
+button {
+  background-color: oldlace;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: normal;
+  text-align: left;
+}
+
+button:hover {
+  color: #4377b0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: oldlace;
+}
+
+/* About */
+.article {
+  padding: 40px;
+  margin: 10px auto;
+  background-color: oldlace;
+  border: 5px solid #b4d4ee;
+  border-radius: 20px;
+  opacity: .9;
+  color: black;
+  grid-column: 1 / 5;
+  opacity: .8;
+}
+
+/* Contact */
+.section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  height: 300px;
+  overflow: scroll;
+  margin: 100px;
+  align-items: center;
+  display: flex;
+}
+
+.icon {
+  padding: 25px;
+}
+
+/* Work */
+.card {
+  background-color: rgba(56,112,176, .4);
+  border: 1px solid oldlace;
+  color: black;
+  padding: 10px;
+  width: 100%;
+}
+
+.cardImgTop {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+.cardTitle {
+  font-size: 30px;
+  color: black;
+}
+
+.cardText {
+  font-size: 18px;
+}
+
+.cardContainer {
+  background-color: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+  gap: 20px;
+  scroll-behavior: smooth;
+  overflow: scroll;
+  height: 600px;
+}
+
+/* .workSection {
+  overflow: scroll;
+  height: 100vh;
+} */
+
+#deployed {
+  background-color: black;
+  border: 1px solid white;
+}
+
+#deployed:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+#git:hover {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+}
+
+#git {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
