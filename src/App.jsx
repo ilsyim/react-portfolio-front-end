@@ -18,7 +18,7 @@ const App = () => {
           <Landing />
           <div className="switch">
             <label>{theme === "light" ? "Light Mode" : "Dark Mode"}</label>
-            <ReactSwitch onChange={toggleTheme} checked={theme === "light"} onColor="#4377b0" onHandleColor="#000" offHandleColor="#4377b0" offColor="#000" width={60} height={26} handleDiameter={29}/>
+            <ReactSwitch onChange={toggleTheme} checked={theme === "light"} onColor="#fff" onHandleColor="#000" offHandleColor="#fff" offColor="#000" width={60} height={26} handleDiameter={29} uncheckedIcon={false} checkedIcon={false}/>
           </div>
         </div>
       </ThemeContext.Provider>

@@ -28,19 +28,26 @@
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 100px;
+  height: auto;
+  bottom: 0;
 }
 
 .switch label {
   margin: 10px;
 }
 
+h1 {
+  margin: 20px;
+}
+
 #light h1 {
   color: var(--light-h1);
+  text-shadow: 1px 1px 1px black;
 }
 
 #dark h1 {
   color: var(--dark-h1);
+  text-shadow: .5px .5px .5px oldlace;
 }
 
 /* Landing */
@@ -50,6 +57,7 @@
   flex-direction: column;
   overscroll-behavior: none;
   scroll-behavior: smooth;
+  margin: 100px;
 }
 
 /* Portfolio */
@@ -68,6 +76,7 @@
   height: auto;
   padding: 20px;
   margin: 0 50px;
+  font-size: 22px;
 }
 
 #light .portfolioNav {
@@ -124,35 +133,49 @@ a:hover {
 /* About */
 .article {
   padding: 40px;
-  margin: 10px auto;
+  margin: 50px auto;
   background-color: oldlace;
   border: 5px solid #b4d4ee;
   border-radius: 20px;
-  opacity: .9;
+  opacity: .7;
   color: black;
   grid-column: 1 / 5;
-  opacity: .8;
+
 }
 
 /* Contact */
 .section {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100%;
-  height: 300px;
   overflow: scroll;
-  margin: 100px;
-  align-items: center;
+  margin: 50px;
   display: flex;
 }
 
 .icon {
   padding: 25px;
 }
+.icon:hover {
+  background-color: rgba(253, 245, 230, .5);
+}
+
+/* Resume */
+
+#resume {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
 
 /* Work */
+.workSection {
+  margin: 50px;
+}
+
 .card {
   background-color: rgba(56,112,176, .4);
   border: 1px solid oldlace;
@@ -189,11 +212,6 @@ a:hover {
   overflow: scroll;
   height: 600px;
 }
-
-/* .workSection {
-  overflow: scroll;
-  height: 100vh;
-} */
 
 #deployed {
   background-color: black;
