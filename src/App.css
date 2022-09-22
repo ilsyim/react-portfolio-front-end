@@ -50,17 +50,18 @@
 }
 
 h1 {
-  margin: 20px;
-}
-
-#light h1 {
-  color: var(--light-h1);
+  margin: 30px;
+  font-family: 'EB Garamond', serif;
+  font-weight: 600;
+  font-size: 46px;
+  color: oldlace;
   text-shadow: 1px 1px 1px black;
+  /* background-color: rgba(56,112,176, .05); */
 }
 
 #dark h1 {
   color: var(--dark-h1);
-  text-shadow: .5px .5px .5px oldlace;
+  text-shadow: none;
 }
 
 /* Landing */
@@ -75,7 +76,7 @@ h1 {
 
 /* Portfolio */
 .portfolio {
-  width: 50%;
+  width: 65%;
 }
 
 .portfolioNav{
@@ -145,14 +146,15 @@ a:hover {
 }
 
 /* About */
-#light .article {
+.article {
   padding: 50px;
   margin: 50px auto;
   background-color: var(--light-bg);
   border: 3px solid var(--light-text);
   border-radius: 20px;
   /* opacity: .8; */
-  color: var(--light-text)
+  color: var(--light-text);
+  font-size: 18px;
 }
 
 #dark .article {
@@ -182,6 +184,8 @@ a:hover {
 }
 .icon:hover {
   background-color: rgba(253, 245, 230, .5);
+  background-size: contain;
+  border-radius: 100px;
 }
 
 /* Resume */
@@ -196,14 +200,18 @@ a:hover {
 /* Work */
 .workSection {
   margin: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
   background-color: var(--light-bg);
-  /* background-color: rgba(56,112,176, .4); */
   border: 2px solid black;
   color: black;
-  padding: 10px;
+  padding: 15px;
   width: 100%;
 }
 
@@ -237,11 +245,11 @@ a:hover {
 }
 
 .cardContainer {
-  background-color: none;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   margin: 20px;
   gap: 20px;
   scroll-behavior: smooth;
