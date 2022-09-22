@@ -10,6 +10,7 @@
 }
 
 .App {
+  font-family: 'Lato', sans-serif;
   background-image: url("/public/clouds.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -198,11 +199,22 @@ a:hover {
 }
 
 .card {
-  background-color: rgba(56,112,176, .4);
-  border: 1px solid oldlace;
+  background-color: var(--light-bg);
+  /* background-color: rgba(56,112,176, .4); */
+  border: 2px solid black;
   color: black;
   padding: 10px;
   width: 100%;
+}
+
+#dark .card {
+  background-color: var(--dark-bg);
+  color: var(--dark-text);
+  border: 2px solid var(--dark-text);
+}
+
+#dark .cardTitle {
+  color: var(--dark-text);
 }
 
 .cardImgTop {
@@ -210,15 +222,18 @@ a:hover {
   height: auto;
   vertical-align: middle;
   object-fit: cover;
+  border-radius: 3px;
 }
 
 .cardTitle {
   font-size: 30px;
   color: black;
+  margin-top: 10px;
 }
 
 .cardText {
   font-size: 18px;
+  margin: 10px;
 }
 
 .cardContainer {
@@ -236,23 +251,26 @@ a:hover {
 
 #deployed {
   background-color: black;
-  border: 1px solid white;
+  border: 1px solid var(--light-text-hover);
+  margin: 5px;
+  color: oldlace;
 }
 
 #deployed:hover {
-  background-color: white;
+  background-color: var(--light-text-hover);
   border: 1px solid black;
   color: black;
 }
 
-#git:hover {
+#git {
   background-color: black;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid var(--light-text-hover);
+  margin: 5px;
+  color: oldlace;
 }
 
-#git {
-  background-color: white;
+#git:hover {
+  background-color: var(--light-text-hover);
   border: 1px solid black;
   color: black;
 }
