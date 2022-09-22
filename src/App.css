@@ -23,6 +23,18 @@
   scroll-behavior: smooth;
 }
 
+.me {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  float: right;
+  border-radius: 10px;
+  margin: 15px;
+}
+
 .switch {
   display: flex;
   justify-content: center;
@@ -64,6 +76,7 @@ h1 {
 .portfolio {
   width: 50%;
 }
+
 .portfolioNav{
   overscroll-behavior: none;
   scroll-behavior: smooth;
@@ -77,14 +90,14 @@ h1 {
   padding: 20px;
   margin: 0 50px;
   font-size: 22px;
-}
-
-#light .portfolioNav {
+  border: 3px solid black;
+  border-radius: 20px;
   background-color: oldlace;
 }
 
 #dark .portfolioNav {
   background-color: black;
+  border: 3px solid var(--dark-text);
 }
 
 #light button {
@@ -131,16 +144,24 @@ a:hover {
 }
 
 /* About */
-.article {
-  padding: 40px;
+#light .article {
+  padding: 50px;
   margin: 50px auto;
-  background-color: oldlace;
-  border: 5px solid #b4d4ee;
+  background-color: var(--light-bg);
+  border: 3px solid var(--light-text);
   border-radius: 20px;
-  opacity: .7;
-  color: black;
-  grid-column: 1 / 5;
+  /* opacity: .8; */
+  color: var(--light-text)
+}
 
+#dark .article {
+  padding: 50px;
+  margin: 50px auto;
+  background-color: var(--dark-bg);
+  border: 3px solid var(--dark-text);
+  border-radius: 20px;
+  /* opacity: .8; */
+  color: var(--dark-text);
 }
 
 /* Contact */
