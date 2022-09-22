@@ -249,6 +249,12 @@ a:hover {
   height: 600px;
 }
 
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #deployed {
   background-color: black;
   border: 1px solid var(--light-text-hover);
@@ -262,6 +268,19 @@ a:hover {
   color: black;
 }
 
+#dark #deployed {
+  background-color: var(--light-bg);
+  border: 1px solid var(--light-text-hover);
+  margin: 5px;
+  color: var(--light-text);
+}
+
+#dark #deployed:hover {
+  background-color: var(--light-text-hover);
+  border: 1px solid black;
+  color: black;
+}
+
 #git {
   background-color: black;
   border: 1px solid var(--light-text-hover);
@@ -270,6 +289,19 @@ a:hover {
 }
 
 #git:hover {
+  background-color: var(--light-text-hover);
+  border: 1px solid black;
+  color: black;
+}
+
+#dark #git {
+  background-color: var(--light-bg);
+  border: 1px solid var(--light-text-hover);
+  margin: 5px;
+  color: var(--light-text);
+}
+
+#dark #git:hover {
   background-color: var(--light-text-hover);
   border: 1px solid black;
   color: black;
