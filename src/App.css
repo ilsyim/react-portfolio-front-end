@@ -34,6 +34,7 @@
   float: right;
   border-radius: 10px;
   margin: 15px;
+  margin-left: 30px;
 }
 
 .switch {
@@ -51,17 +52,17 @@
 
 h1 {
   margin: 30px;
-  font-family: 'EB Garamond', serif;
-  font-weight: 600;
-  font-size: 46px;
-  color: oldlace;
-  text-shadow: 1px 1px 1px black;
+  font-family: 'Parisienne', cursive;
+  /* font-weight: 600; */
+  font-size: 65px;
+  color: #FFE347;
+  text-shadow: 1px 1px 1px #87255B;
   /* background-color: rgba(56,112,176, .05); */
 }
 
 #dark h1 {
   color: var(--dark-h1);
-  text-shadow: none;
+  text-shadow: 1px 1px 1px #87255B;
 }
 
 /* Landing */
@@ -141,7 +142,16 @@ a {
   color: black;
 }
 
+#dark a {
+  text-decoration: none;
+  color: var(--dark-text);
+}
+
 a:hover {
+  color: var(--light-text-hover);
+}
+
+#dark a:hover {
   color: var(--light-text-hover);
 }
 
