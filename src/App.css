@@ -142,7 +142,7 @@ a {
 }
 
 a:hover {
-  color: oldlace;
+  color: var(--light-text-hover);
 }
 
 /* About */
@@ -237,6 +237,9 @@ a:hover {
   font-size: 30px;
   color: black;
   margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .cardText {
