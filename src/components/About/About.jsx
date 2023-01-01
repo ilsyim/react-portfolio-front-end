@@ -8,7 +8,7 @@ const About = () => {
   return (
     <>
       <article className="article">
-        <h2>Howdy!</h2>
+        <h2>Howdy, I'm Ilyana!</h2>
 
         <a href="https://www.linkedin.com/in/ilyanasimmons/" target="_blank" rel="noopener noreferrer"><img src="Ilyana.JPG" alt="Me!" className="me" /></a>
           <p>

@@ -62,7 +62,7 @@ h1 {
 
 #dark h1 {
   color: var(--dark-h1);
-  text-shadow: 1px 1px 1px #87255B;
+  text-shadow: .3px .3px .3px oldlace;
 }
 
 /* Landing */
@@ -100,7 +100,7 @@ h1 {
 
 #dark .portfolioNav {
   background-color: black;
-  border: 3px solid var(--dark-text);
+  border: 1.5px solid var(--dark-text);
 }
 
 #light button {
@@ -171,7 +171,7 @@ a:hover {
   padding: 50px;
   margin: 50px auto;
   background-color: var(--dark-bg);
-  border: 3px solid var(--dark-text);
+  border: 1.5px solid var(--dark-text);
   border-radius: 20px;
   /* opacity: .8; */
   color: var(--dark-text);
