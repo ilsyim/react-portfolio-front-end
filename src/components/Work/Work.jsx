@@ -6,6 +6,7 @@ const Work = () => {
   return (
     <>
       <div className="workSection">
+        <p>Some sites are currently under construction. Thank you for your understanding!</p>
         <div className="cardContainer">
           <div className="card" style={{width: "18rem"}}>
             <img src="/ttt.png" className="cardImgTop" alt="Screenshot of Tic-Tac-Toe app."/>
