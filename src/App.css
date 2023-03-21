@@ -209,6 +209,7 @@ a:hover {
 
 /* Work */
 .workSection {
+  height: 500px;
   margin: 70px;
   display: flex;
   flex-direction: row;
