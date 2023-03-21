@@ -25,7 +25,7 @@ const Work = () => {
                 <h5 className="cardTitle">bookCase</h5>
                 <p className="cardText">A MEN app designed for book lovers to share their reccomendations.</p>
                 <div className="buttons">
-                  <a href="bookcase.fly.dev" target="_blank" rel="noopener noreferrer" id="deployed" className="btn btn-primary">Deployed</a>
+                  <a href="https://bookcase.fly.dev" target="_blank" rel="noopener noreferrer" id="deployed" className="btn btn-primary">Deployed</a>
                   <a href="https://github.com/ilsyim/bookcase" target="_blank" rel="noopener noreferrer" id="git" className="btn btn-secondary">GitHub</a>
                 </div>
               </div>
