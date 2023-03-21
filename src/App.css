@@ -209,13 +209,13 @@ a:hover {
 
 /* Work */
 .workSection {
-  margin: 50px;
+  margin: 70px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding-bottom: 20px;
+  position: relative;
 }
 
 .card {
