@@ -209,7 +209,7 @@ a:hover {
 
 /* Work */
 .workSection {
-  height: 500px;
+  height: 600px;
   margin: 70px;
   display: flex;
   flex-direction: row;
@@ -269,7 +269,7 @@ a:hover {
   gap: 20px;
   scroll-behavior: smooth;
   overflow: scroll;
-  height: 600px;
+  height: 400px;
 }
 
 .buttons {
