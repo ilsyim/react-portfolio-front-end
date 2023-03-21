@@ -13,15 +13,7 @@ const App = () => {
 
   return (
     <>
-      <ThemeContext.Provider value={{theme, toggleTheme}}>
-        <div className="App" id={theme}>
-          <Landing />
-          <div className="switch">
-            <label>{theme === "light" ? "Light Mode" : "Dark Mode"}</label>
-            <ReactSwitch onChange={toggleTheme} checked={theme === "light"} onColor="#fff" onHandleColor="#000" offHandleColor="#fff" offColor="#000" width={60} height={26} handleDiameter={29} uncheckedIcon={false} checkedIcon={false}/>
-          </div>
-        </div>
-      </ThemeContext.Provider>
+      <Landing ReactSwitch={ReactSwitch} ThemeContext={ThemeContext} createContext={createContext} useState={useState}/>
     </>
   )
 }
