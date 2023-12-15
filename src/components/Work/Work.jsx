@@ -67,7 +67,7 @@ const Work = () => {
             <img src="/lumpia.png" className="cardImgTop" alt="Screenshot of Lumpia Maker app."/>
               <div className="cardBody">
                 <h5 className="cardTitle">Lumpia Maker</h5>
-                <p className="cardText">A Filipino cuisine centered full-stack app that uses the Python-based Django Web Framework. Working on redeploy</p>
+                <p className="cardText">A Filipino cuisine centered full-stack app that uses the Python-based Django Web Framework. Working on redeploy.</p>
                 <div className="buttons">
                   <a href="https://lumpia-maker.herokuapp.com/" target="_blank" rel="noopener noreferrer" id="deployed" className="btn btn-primary">Deployed</a>
                   <a href="https://github.com/ilsyim/lumpia" target="_blank" rel="noopener noreferrer" id="git" className="btn btn-secondary">GitHub</a>
@@ -78,7 +78,7 @@ const Work = () => {
             <img src="/rachel.png" className="cardImgTop" alt="Screenshot of Rachel's Photography app."/>
               <div className="cardBody">
                 <h5 className="cardTitle">Rachel's Photography</h5>
-                <p className="cardText">A full-stack app created to showcase my friend's photography. Functional but working on improvements</p>
+                <p className="cardText">A full-stack app created to showcase my friend's photography. Functional but working on improvements.</p>
                 <div className="buttons">
                   <a href="https://rachel-photo-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer" id="deployed" className="btn btn-primary">Deployed</a>
                   <a href="https://github.com/ilsyim/rachel-front" target="_blank" rel="noopener noreferrer" id="git" className="btn btn-secondary">GitHub</a>

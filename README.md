@@ -1,5 +1,5 @@
 # portfolio
-Updated React portfolio. Made to align closer with the vision in my head. Two hidden links in my about to help you learn more about me away from coding!
+Updated React portfolio. Made to align closer with the vision in my head. Two hidden links in my "About" section to help you learn more about me away from coding!
 
 ## Deployed Portfolio:
 (https://ilyanasimmons.netlify.app/)
